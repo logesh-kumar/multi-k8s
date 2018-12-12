@@ -10,6 +10,7 @@ class App extends Component {
     return (
       <Router>
         <div className='App'>
+          <h1>Fibonacci Calculator v6</h1>
           <div>
             <Switch>
               <Route exact path='/' component={Fib} />
