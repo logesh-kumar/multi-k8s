@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: client-deployment
-spec: 
+spec:
   replicas: 3
   selector:
     matchLabels:
@@ -17,4 +17,3 @@ spec:
           image: logeshkumar/multi-client
           ports:
             - containerPort: 3000
-        
